@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+}
+
+ul{
+    font-weight: 300;
+    padding: 10px;
+}
+
+ul.books{
+    list-style-type:numbers;
+    list-style-position: inside;
+}
+
+ul.lessons{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.leftdiv{
+    width: 45%;
+    float: left;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.rightdiv{
+    width: 45%;
+    float: right;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.lastdiv{
+    width: 100%;
+    float: right;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
