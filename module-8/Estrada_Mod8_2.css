@@ -1,0 +1,138 @@
+
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: red;
+    border-bottom: solid;
+    border-width: 15px;
+    border-color:darkgoldenrod;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: red;
+    color:blue;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-weight: 400;
+}
+
+.card-title:hover {
+    box-shadow: none !important;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card-content:hover {
+    box-shadow: none;
+}
+
+footer {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.return {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.copyright {
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.movie-card {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    width: 14%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.movie-card-content th {
+    color: white;
+    background-color: red;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding: 12px;
+    text-align: left;
+}
+
+.movie-card-content td {
+    border: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    padding: 8px;
+}
+
+.movie-card-title {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-weight: 400;
+}
