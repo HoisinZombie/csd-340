@@ -1,0 +1,42 @@
+<!-- 
+Andrew Estrada
+Assignment 9.3
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Development with HTML and CSS</title>
+    <script>
+    function skateboarding() {
+        document.getElementById("skateboarding").innerHTML = "skateboarding";
+    }
+
+    function yearsold() {
+        document.getElementById("30 years old").innerHTML = "30 years old";
+    }
+
+    function quitting() {
+        document.getElementById("quitting").innerHTML = "quitting";
+    }
+
+    function hospital() {
+        document.getElementById("hospital").innerHTML = "hospital";
+    }
+    </script>
+
+</head>
+
+<body>
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+    <p>Today, I hurt my back while I was <span id ="skateboarding">_____________</span>. I did a trick and landed with my board sideways, which thew me off. I fell on my butt and it made my lower spine and upper spine go different directions, and that really hurt.</p>
+    <p>I recently turned <span id="30 years old">____________</span>. I couldn't help but think about that at the time of my fall. I wondered if my injury would have been as bad if I was younger. Surely not.</p>
+    <p>I'm considering <span id="quitting">________</span> skateboarding. I can't take the chance of not being able to work and spending money on <span id="hospital">________</span> bills. I think quitting is the smart thing to do.</p>
+
+    <button type="button" onclick="skateboarding()">skateboarding</button>
+    <button type="button" onclick="yearsold()">30 years old</button>
+    <button type="button" onclick="quitting()">quitting</button>
+    <button type="button" onclick="hospital()">hospital</button>
+
+</body>
+</html>
