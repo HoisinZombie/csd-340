@@ -1,0 +1,35 @@
+<!--
+Andrew Estrada
+Assignment 10.3
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+    function chinchange() {
+        document.getElementById("negachin").innerHTML = "<img src='images/crimsonchin.jpg'>"
+    }
+
+    function cherylchange() {
+        document.getElementById("darkcheryl").innerHTML = "<img src='images/cheryl.jpg' width='300'>"
+    }
+    </script>
+
+</head>
+
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    <div id="chin">
+        <button id="negachin" type="button" onclick="chinchange()"><img src="images/negachin.jpg"></button>
+        <p>Click on the Nega Chin to change him to the Crimson Chin.</p>
+    </div>
+
+    <div id="cheryl">
+        <button id="darkcheryl" type="button" onclick="cherylchange()"><img src="images/darkcheryl.jpg" width="300"></button>
+        <p>Click on Alessa Gillespie to change her into Cheryl Mason.</p>
+    </div>
+</body>
+</html>
